@@ -29,10 +29,10 @@ binds {
     Mod+F hotkey-overlay-title="Open File Manager" { spawn "nemo"; }
     Mod+Shift+N hotkey-overlay-title="Open Obsidian" { spawn "obsidian"; }
     Mod+G hotkey-overlay-title="Open Telegram" { spawn "Telegram"; }
-    Mod+B hotkey-overlay-title="Open Zen Browser" { spawn "zen-browser"; }
-    Mod+Shift+Z hotkey-overlay-title="Open Zed Editor" { spawn "sh" "-c" "$HOME/.config/niri/Scripts/zed-resize-fix.sh"; }
-    Mod+S hotkey-overlay-title="Open Steam" { spawn "steam"; }
-    Mod+Ctrl+C hotkey-overlay-title="Open OpenCode" { spawn "kitty" "opencode"; }
+    Mod+B hotkey-overlay-title="Open Helium" { spawn "helium-browser"; }
+    Mod+Shift+Z hotkey-overlay-title="Open Code" { spawn "sh" "-c" "code"; }
+    Mod+S hotkey-overlay-title="Open Spotify" { spawn "spotify"; }
+    Mod+Ctrl+C hotkey-overlay-title="Open Color Picker" { spawn "sh" "wl-color-picker"; }
     Mod+Ctrl+Return { spawn "kitty" "--class=floating-kitty"; }
     Mod+Shift+O hotkey-overlay-title="Open OBS Studio" { spawn "flatpak" "run" "com.obsproject.Studio"; }
     Super+Alt+L hotkey-overlay-title="Lock the Screen: swaylock" { spawn "swaylock"; }
@@ -127,14 +127,14 @@ binds {
     // Mod+Shift+Ctrl+Left  { move-workspace-to-monitor-left; }
     // ...
 
-    Mod+Ctrl+Down      { focus-workspace-down; }
-    Mod+Ctrl+UP      { focus-workspace-up; }
+    // Mod+Ctrl+Down      { focus-workspace-down; }
+    // Mod+Ctrl+UP      { focus-workspace-up; }
     Mod+U              { focus-workspace-down; }
     Mod+I              { focus-workspace-up; }
     Mod+Ctrl+Page_Down { move-column-to-workspace-down; }
     Mod+Ctrl+Page_Up   { move-column-to-workspace-up; }
-    Mod+Ctrl+U         { move-column-to-workspace-down; }
-    Mod+Ctrl+I         { move-column-to-workspace-up; }
+    Mod+Ctrl+Down         { move-column-to-workspace-down; }
+    Mod+Ctrl+Up         { move-column-to-workspace-up; }
 
     // Alternatively, there are commands to move just a single window:
     // Mod+Ctrl+Page_Down { move-window-to-workspace-down; }

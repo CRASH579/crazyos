@@ -80,7 +80,7 @@ input {
 
     // Focus windows and outputs automatically when moving the mouse into them.
     // Setting max-scroll-amount="0%" makes it work only on windows already fully on screen.
-    focus-follows-mouse max-scroll-amount="30%"
+    focus-follows-mouse max-scroll-amount="0%"
 }
 
 // You can configure outputs by their name, which you can find
@@ -128,7 +128,7 @@ input {
 // https://yalter.github.io/niri/Configuration:-Layout
 layout {
     // Set gaps around windows in logical pixels.
-    gaps 7
+    gaps 9
 
     // When to center a column when changing focus, options are:
     // - "never", default behavior, focusing an off-screen column will keep at the left
@@ -136,7 +136,7 @@ layout {
     // - "always", the focused column will always be centered.
     // - "on-overflow", focusing a column will center it if it doesn't fit
     //   together with the previously focused column.
-    center-focused-column "never"
+    center-focused-column "on-overflow"
 
     always-center-single-column
     // You can customize the widths that "switch-preset-column-width" (Mod+R) toggles between.
@@ -215,8 +215,8 @@ layout {
         // If you enable the border, you probably want to disable the focus ring.
         // off
 
-        width 1
-        active-color "#583e78ff"
+        width 2
+        active-color "#cba6f7"
         inactive-color "#45475a"
 
         // Color of the border around windows that request your attention.
@@ -322,5 +322,3 @@ include "windowrules.kdl"
 include "binds.kdl"
 include "outputs.kdl"
 include "startup.kdl"
-
-include "dms/cursor.kdl"
