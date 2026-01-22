@@ -1,11 +1,10 @@
-# donarch TheBlackDon's Dotfiles
+# CRAZY OS Arch Config
  
-**Don's Arch Configurations** for Hyprland & Niri with DankMaterialShell
+**CRASH's Arch Configurations** for Hyprland & Niri with DankMaterialShell
 
 A complete, ready-to-use desktop environment configuration for Arch Linux featuring modern Wayland compositors with Catppuccin Design aesthetics.
 
-
-If you enjoy what I do, consider supporting me on Ko-fi! Every little bit means the world! https://ko-fi.com/theblackdon
+Orignally created by theblackdon If you enjoy what he did, consider supporting him on Ko-fi! Every little bit means the world! https://ko-fi.com/theblackdon
 
 
 ## Features
