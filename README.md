@@ -1,6 +1,6 @@
-# CRAZY OS Arch Config
+# CRAZY OS Arch Config 
  
-**CRASH's Arch Configurations** for Hyprland & Niri with DankMaterialShell
+**CRASH's Arch Configurations (forked from donarch)** for Hyprland & Niri with DankMaterialShell
 
 A complete, ready-to-use desktop environment configuration for Arch Linux featuring modern Wayland compositors with Catppuccin Design aesthetics.
 
