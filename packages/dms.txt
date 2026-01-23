@@ -1,4 +1,4 @@
 dms-shell-git
-noctalia-shell
+noctalia-shell-git
 quickshell
 ly
